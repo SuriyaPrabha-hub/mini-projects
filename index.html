@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamStay Hotel</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌴 DreamStay Hotel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-center text-white hero d-flex align-items-center">
+    <div class="container">
+      <h1 class="fade-in">Welcome to DreamStay Hotel</h1>
+      <p class="lead slide-in">Luxury | Comfort | Relaxation</p>
+      <a href="#booking" class="btn btn-light btn-lg mt-3">Book Now</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5 text-center">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At DreamStay Hotel, we offer the perfect blend of luxury and comfort with world-class service.</p>
+      <ul class="list-unstyled">
+        <li>✔ Free Wi-Fi</li>
+        <li>✔ Swimming Pool</li>
+        <li>✔ 24/7 Room Service</li>
+        <li>✔ Complimentary Breakfast</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rooms Table -->
+  <section id="rooms" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Rooms</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center align-middle">
+          <thead class="table-primary">
+            <tr>
+              <th>Room Type</th>
+              <th>Features</th>
+              <th>Price / Night</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Standard Room</td>
+              <td>1 Bed, Free Wi-Fi, TV</td>
+              <td>$80</td>
+            </tr>
+            <tr>
+              <td>Deluxe Room</td>
+              <td>2 Beds, Balcony, Breakfast</td>
+              <td>$120</td>
+            </tr>
+            <tr>
+              <td>Suite</td>
+              <td>King Bed, Ocean View, Jacuzzi</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Book Your Stay</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="shadow p-4 bg-white rounded">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Room Type</label>
+              <select class="form-select">
+                <option>Standard</option>
+                <option>Deluxe</option>
+                <option>Suite</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Check-in Date</label>
+              <input type="date" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Check-out Date</label>
+              <input type="date" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery py-5 bg-light">
+    <div class="container text-center">
+      <h2>Gallery</h2>
+      <div class="row mt-4 g-3">
+        <div class="col-md-4"><img src="room.jpeg" class="img-fluid rounded shadow-sm zoom"></div>
+        <div class="col-md-4"><img src="food.jpeg" class="img-fluid rounded shadow-sm zoom"></div>
+        <div class="col-md-4"><img src="images.jpeg" class="img-fluid rounded shadow-sm zoom"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <footer id="contact" class="text-center text-white bg-dark py-4">
+    <p>📍 DreamStay Hotel, Beach Road, Chennai</p>
+    <p>📧 contact@dreamstay.com | ☎ +91 9876543210</p>
+    <p><a href="#top" class="text-info">Back to Top</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
